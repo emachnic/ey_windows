@@ -79,6 +79,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bundler (~> 1.0.14)
   devise
   rails (= 3.0.9)
   sqlite3
