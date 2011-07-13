@@ -1,0 +1,14 @@
+<% unless current_user %>
+  <%= link_to 'Login', new_user_session_path %>
+<% else %>
+  Logged in as <%= current_user.email %>
+  <%= link_to 'Logout', destroy_user_session_path, :method => 'delete' %>
+<% end %>
+<div>
+  <% unless @posts.nil? %>
+    <% @posts.each do |post| %>
+      <%= post.title %>
+      <%= post.body %>
+    <% end %>
+  <% end %>
+</div>
