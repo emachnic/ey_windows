@@ -6,7 +6,7 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', :group => :development
-
+gem 'mysql', :group => :production
 gem 'bundler', '~> 1.0.14'
 gem 'devise'
 gem 'bcrypt-ruby', '~> 2.1.2'

@@ -44,6 +44,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    mysql (2.8.1-x86-mingw32)
     orm_adapter (0.0.5)
     polyglot (0.3.1)
     rack (1.2.3)
@@ -82,5 +83,6 @@ DEPENDENCIES
   bcrypt-ruby (~> 2.1.2)
   bundler (~> 1.0.14)
   devise
+  mysql
   rails (= 3.0.9)
   sqlite3
