@@ -79,6 +79,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bcrypt-ruby (~> 2.1.2)
   bundler (~> 1.0.14)
   devise
   rails (= 3.0.9)
